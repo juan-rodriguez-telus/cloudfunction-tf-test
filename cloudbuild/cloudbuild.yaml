@@ -11,7 +11,7 @@ steps:
         "functions",
         "deploy",
         "tf-test-nc-demo-function",
-        "HTTP",
+        "--trigger-http",
         "--runtime",
         "Node.js 10",
         "--entry-point",
