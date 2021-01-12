@@ -13,7 +13,7 @@ steps:
         "tf-test-nc-demo-function",
         "--trigger-http",
         "--runtime",
-        "Node.js 10",
+        "nodejs10",
         "--entry-point",
         "helloWorld",
       ]
