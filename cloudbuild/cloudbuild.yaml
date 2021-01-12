@@ -9,5 +9,5 @@ steps:
       - --source=./  # Function source files
       - --entry-point=helloWorld # Function entry point
       - helloWorld # Function name
-    waitFor: ['_'] # This step will wait until npm-test step complete.
+    waitFor: ['-'] # This step will wait until npm-test step complete.
     id: 'deploying-a-serverless-function'
