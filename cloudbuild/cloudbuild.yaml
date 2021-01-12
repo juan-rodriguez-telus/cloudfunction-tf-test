@@ -8,6 +8,6 @@ steps:
       - --trigger-http
       - --source=./  # Function source files
       - --entry-point=helloWorld # Function entry point
-      - helloWorld # Function name
+      - tf-test-nc-demo-function # Function name
     waitFor: ['-'] # This step will wait until npm-test step complete.
     id: 'deploying-a-serverless-function'
