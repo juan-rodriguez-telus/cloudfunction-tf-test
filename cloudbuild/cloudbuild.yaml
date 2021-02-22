@@ -6,6 +6,8 @@ steps:
       - deploy
       - --runtime=nodejs10
       - --trigger-http
+      - --region=northamerica-northeast1
+      - --memory=128
       - --source=./  # Function source files
       - --entry-point=helloWorld # Function entry point
       - tf-test-nc-demo-function # Function name
